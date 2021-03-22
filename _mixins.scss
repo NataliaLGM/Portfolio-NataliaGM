@@ -1,0 +1,21 @@
+@mixin btn {
+    background-color: $mainColor;
+    border: none;
+    color: white;
+    margin:5em;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 8px;
+    opacity: 1;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  }
+
+  @mixin title {
+    margin:auto;
+    padding:100px;
+    letter-spacing: 5px;
+    color:$mainColor;
+}
